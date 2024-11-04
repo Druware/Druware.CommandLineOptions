@@ -1,0 +1,34 @@
+{
+  "name": "Sample Options",
+  "description":  "Provide a description of the program that these optinos are for",
+  "options":[
+    {
+      "name":"User",
+      "description": "Sets the user name for the process",
+      "expectsVariable": true,
+      "commands": [
+        "/U",
+        "--user"
+      ]
+    },
+    {
+      "name":"Binary",
+      "description": "Sets a binary true/false toggle without a parameter, which sets the named options Selected property to true ( default is false )",
+      "expectsVariable": false,
+      "commands": [
+        "/B",
+        "--binary"
+      ]
+    },
+
+    {
+      "name":"Output",
+      "description": "Sets the output file name to be used by the application. If a full path is not provided, it willl use the current working directory, if not provided, it defaults to 'TruistPayablesFile.csv'",
+      "expectsVariable": true,
+      "commands": [
+        "/o",
+        "--output"
+      ]
+    }
+  ]
+}

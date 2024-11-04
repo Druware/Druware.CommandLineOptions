@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+    <metadata>
+        <id>$id$</id>
+        <version>0.5.0</version>
+        <title>Druware.CommandLineOptions</title>
+        <authors>dru@druware.com</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <readme>README.md</readme>
+        <projectUrl>https://github.com/Druware/Druware.CommandLineOptions</projectUrl>
+        <description>
+            A foundation for rapid implementation of a relatively simple engine
+            for building, parsing and consuming command line arguments within 
+            a .net project. We have used this for everything from Kestrel based
+            WebAPIs to command line and UX applications for both MacOS and 
+            Windows.  
+            
+            Please see the readme for more information regarding how to use, 
+            and examples.
+        </description>
+        <releaseNotes>
+            Initial migration from internal library to public.
+            Added nuget spec and packaging.
+        </releaseNotes>
+        <copyright>Copyright 2022 - 2024 Druware Software Designs, All Rights Reserved</copyright>
+        <tags>.net6 webapi</tags>
+    </metadata>
+    <files>
+        <file src="..\LICENSE.txt" target="" />
+        <file src="..\README.md" target="" />
+    </files>
+</package>
