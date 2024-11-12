@@ -13,4 +13,22 @@ documentation.
 
 ## Getting Started 
 
-... Coming Soon! ...
+Installation via nuget: 
+
+```
+NuGet\Install-Package Druware.CommandLineOptions -Version 0.5.0
+```
+
+## Documentation 
+
+We are using the Github Wiki for documentation, though most of the content is 
+also being mastered in the /Docs/ folder as markdown files.
+
+https://github.com/Druware/Druware.CommandLineOptions/wiki
+
+## History
+
+### 0.5.0 - 2024/11/04
+
+Initial publish, without much information, but fully functional. Sample code, 
+documentation and additional resources to be completed.
