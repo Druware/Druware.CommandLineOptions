@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>$id$</id>
-        <version>0.5.0</version>
+        <version>0.6.0</version>
         <title>Druware.CommandLineOptions</title>
         <authors>dru@druware.com</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -20,8 +20,8 @@
             and examples.
         </description>
         <releaseNotes>
-            Initial migration from internal library to public.
-            Added nuget spec and packaging.
+            Added documentation and sample code to the github repo, and fixed a 
+            minor debug message left in the release revision.
         </releaseNotes>
         <copyright>Copyright 2022 - 2024 Druware Software Designs, All Rights Reserved</copyright>
         <tags>.net6 webapi</tags>

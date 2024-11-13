@@ -16,7 +16,7 @@ documentation.
 Installation via nuget: 
 
 ```
-NuGet\Install-Package Druware.CommandLineOptions -Version 0.5.0
+NuGet\Install-Package Druware.CommandLineOptions -Version 0.6.0
 ```
 
 ## Documentation 
@@ -27,6 +27,12 @@ also being mastered in the /Docs/ folder as markdown files.
 https://github.com/Druware/Druware.CommandLineOptions/wiki
 
 ## History
+
+### 0.6.0 - 2024/11/13
+
+Removed a debug message from the release build of the library.
+Added documentation.
+Added a Sample of how to use to the Github repo.
 
 ### 0.5.0 - 2024/11/04
 

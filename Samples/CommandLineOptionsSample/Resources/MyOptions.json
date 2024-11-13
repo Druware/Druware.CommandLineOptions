@@ -1,0 +1,24 @@
+{
+  "name": "Command Line Options Sample",
+  "description": "A simple program that does nothing but show how to implemente the options",
+  "options":[
+    {
+      "name":"User",
+      "description": "Sets the user name",
+      "expectsVariable": true,
+      "commands": [
+        "/U",
+        "--user"
+      ]
+    },
+    {
+      "name":"Binary",
+      "description": "Boolean item ( not present is equal to false )",
+      "expectsVariable": false,
+      "commands": [
+        "/B",
+        "--binary"
+      ]
+    }
+  ]
+}

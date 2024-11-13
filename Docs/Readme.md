@@ -61,7 +61,7 @@ NuGet\Install-Package Druware.CommandLineOptions -Version 0.5.0
         "/B",
         "--binary"
       ]
-    },
+    }
    ]
 }
 ```

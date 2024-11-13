@@ -31,7 +31,9 @@ public class CommandLineOptions
         var i = 0;
         foreach (var arg in args)
         {
+            #if DEBUG 
             Console.WriteLine("Argument: {0}", arg);
+            #endif
 
             switch (arg)
             {
